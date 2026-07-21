@@ -14,9 +14,17 @@ A decoupled full-stack incident management dashboard using a React Single Page A
         ### express-rate-limit (DDoS mitigation & API throttling)
         ### dotenv (Environment variable management)
 
+<<<<<<< HEAD
     ## Runtime Execution: 
 	### tsx (TypeScript watcher for dev) 
 	### tsc (Production build compiler)
+=======
+Run all commands from the repository root path.
+## Dev Setup
+```bash
+npm run install:all
+```
+>>>>>>> 92f3abb33cf2fa8bf991db9860e365e1c7b77f70
 
     ## Frontend (UI & Dashboard)
     	### Library: React 18 / 19
