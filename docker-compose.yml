@@ -1,0 +1,34 @@
+version: '3.8'
+
+networks:
+  ticket_net:
+    driver: bridge
+
+services:
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: ticketServer
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: 5000
+    volumes:
+      - ./server/dataDB:/usr/src/app/dataDB
+    networks:
+      - ticket_net
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: ticketClient
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      - server
+    networks:
+      - ticket_net
+
