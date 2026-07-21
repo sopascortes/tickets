@@ -87,7 +87,7 @@ npm run test:server
 # 7. What you would improve with more time
 I would add all the optional requirements, specially the "Authentication or role-based access" , the live updates and advanced search.
 
-#8. Docker Compose setup
+# 8. Docker Compose setup
 ## 🛠️   Docker setup
 Run all commands from the repository root path.
 
