@@ -9,7 +9,7 @@ A decoupled full-stack incident management dashboard using a React Single Page A
 
 
 Run all commands from the repository root path.
-### Dev Setup
+## Dev Setup
 ```bash
 npm run install:all
 ```
