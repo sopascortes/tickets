@@ -101,8 +101,9 @@ docker compose up -d
 3. Check the internal cluster status metrics live
 docker compose ps
 
+4. Access the app on http://localhost
 ```
-### 4. Access the app on http://localhost
+
 
 # 9. Deployment to a cloud platform
 I installed the app on a Digital Ocean droplet.
