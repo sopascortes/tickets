@@ -8,18 +8,26 @@ A decoupled full-stack incident management dashboard using a React Single Page A
 - **Real-Time Validation Lifecycle:** Form validation rules protect inputs at both frontend client boundaries and backend server middleware contexts.
 
 
-### First Time Setup
-From the repository root path, run to install:
+Run all commands from the repository root path.
+### Dev Setup
 ```bash
 npm run install:all
 ```
-On a shell run to start the backend server:
+
+### Test scripts
+```bash
+npm run test:server
+```
+
+### Backend server
 ```bash
 npm run dev:server
 ```
 
-On a different shell that the one the backend server is running,  run to start the frontend server:
+### Frontend server [From a different shell than the one the backend server is running]
 ```bash
 npm run dev:client
 ```
+
+
 
